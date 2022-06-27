@@ -1,0 +1,117 @@
+.howitworks-container{
+    background-color: #F5F7FB;
+    padding: 0 64px 60px 64px;
+}
+
+.howitworks-container .title h1{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.flex-container,.step{
+    display: flex;
+}
+
+.steps{
+padding-left: 80px;
+}
+
+.step1{
+    margin-top: 60px;
+}
+
+.number{
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 5px 10px;
+}
+
+
+.text{
+    padding-left: 20px;
+}
+
+.info{
+    padding-top: 15px;
+}
+
+.options{
+    text-align: center;
+    padding-top: 140px;
+}
+
+.options h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.options h3{
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+.options p{
+    padding-top: 30px;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .handOver img{
+        width: 400px;
+    }
+
+    .step1{
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .handOver{
+        display: flex;
+        justify-content: center;
+    }
+
+    .handOver img{
+        padding-bottom: 20px;
+        width: 70%;
+    }
+
+    .options{
+        padding: 90px 0 30px 0;
+    }
+
+    .steps{
+        max-width: 63ch;
+    } 
+}
+
+@media only screen and (max-width: 425px) {
+    .howitworks-container{
+        padding: 0 5px;
+    }
+
+    .handOver img{
+        width: 100%;
+    }
+
+    .steps{
+        padding-left: 0;
+    }
+
+    .options h1 {
+        font-size: 35px;
+    }
+
+    .options h3 {
+        font-size: 18px;
+    }
+
+    .options p {
+        font-size: 15px;
+    }
+}

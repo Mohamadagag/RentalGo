@@ -1,0 +1,57 @@
+.login-container {
+  background-color: #f5f7fb;
+  padding: 0 64px 60px 64px;
+}
+
+.fill {
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+}
+
+.login-info {
+  padding-top: 40px;
+}
+
+.login-img img {
+  width: 100%;
+  padding: 10px;
+}
+
+.login-input {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  border: none;
+  background-color: #5ea1ff;
+  color: #fff;
+  padding: 10px 35px;
+}
+
+.login-button {
+  cursor: pointer;
+}
+
+.center-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.login-form {
+  margin-top: 30px;
+}
+
+.login-form div:first-child {
+  margin-top: 20px;
+}
+
+.login-form div:nth-child(2) {
+  margin-top: 20px;
+}
