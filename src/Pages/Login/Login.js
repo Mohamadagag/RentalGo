@@ -1,6 +1,7 @@
 import React from "react";
 import "./Login.css";
 import LoginImage from "../../Images/LoginImage.svg";
+import { TbUserCircle } from "react-icons/tb";
 
 export default function Login() {
   return (
@@ -9,6 +10,11 @@ export default function Login() {
         <div className="fill">
           <div className="login-img">
             <img src={LoginImage} alt="Login" />
+          </div>
+          <div className="user-icon">
+            <span>
+              <TbUserCircle className="icon" />
+            </span>
           </div>
           <div className="login-info">
             <h2>Enter your credentials to host your car</h2>

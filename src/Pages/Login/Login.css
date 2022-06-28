@@ -1,21 +1,35 @@
 .login-container {
   background-color: #f5f7fb;
   padding: 0 64px 60px 64px;
+  /* padding: 20px 64px 30px 64px; */
 }
 
 .fill {
   background-color: #fff;
-  padding: 30px;
+  padding: 70px 30px;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  display: none;
 }
 
 .login-info {
   padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.login-img {
+  display: flex;
+  align-items: center;
 }
 
 .login-img img {
   width: 100%;
-  padding: 10px;
+  height: auto;
 }
 
 .login-input {
@@ -54,4 +68,40 @@
 
 .login-form div:nth-child(2) {
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 865px) {
+  .fill {
+    flex-direction: column;
+  }
+
+  .icon {
+    display: block;
+    font-size: 60px;
+  }
+
+  .login-info {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .login-img img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .fill {
+    padding: 70px 0;
+  }
+
+  .login-container{
+    padding: 0 0 60px 0;
+  }
+
+  .login-info {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
 }
