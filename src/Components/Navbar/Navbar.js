@@ -9,14 +9,14 @@ export default function Navbar() {
       <div className="navbar-container">
         <nav>
           <div>
-            <Link to="/">
+            <Link to="/home">
               <img src={RentalGo} alt="Logo" />
             </Link>
           </div>
 
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/home">Home</Link>
             </li>
             <li>
               <Link to="/howitworks">How it works</Link>

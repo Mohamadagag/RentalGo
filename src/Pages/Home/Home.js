@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </div>
         <div className="searchbar">
-          <input type="text" />
+          <input type="text" className="search-input"/>
           <button>Search</button>
         </div>
       </div>

@@ -6,25 +6,20 @@ import Details from "./Pages/Details/Details";
 import HowItWorks from "./Pages/HowItWorks/HowItWorks";
 import Login from "./Pages/Login/Login";
 import Host from "./Pages/Host/Host";
+import NotFound from "./Pages/NotFound/NotFound";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Routes>
+        <Route index path="/home" element={<Home />} />
         <Route index path="/" element={<Home />} />
         <Route path="/details" element={<Details />} />
         <Route path="/howitworks" element={<HowItWorks />} />
         <Route path="/login" element={<Login />} />
         <Route path="/host" element={<Host />} />
-        <Route
-          path="*"
-          element={
-            <div>
-              <h2>404 Page not found</h2>
-            </div>
-          }
-        />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     </div>
   );
