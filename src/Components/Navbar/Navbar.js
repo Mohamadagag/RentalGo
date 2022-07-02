@@ -22,9 +22,6 @@ export default function Navbar() {
               <Link to="/howitworks">How it works</Link>
             </li>
             <li>
-              <Link to="/host">Host</Link>
-            </li>
-            <li>
               <Link to="/login">Login</Link>
             </li>
           </ul>
