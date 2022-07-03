@@ -3,23 +3,23 @@ import "./Car.css";
 import Carimage from "../../Images/car.png";
 import { MdOutlineStar } from "react-icons/md";
 
-export default function Car() {
+export default function Car(props) {
   return (
     <div>
       <div className="card">
         <div className="car-image">
-          <img src={Carimage} alt="car" />
+          <img src={props.carImage} alt="car" />
         </div>
         <div className="carname">
-          <div>Range Rover</div>
+          <div>{props.name}</div>
           <div className="rating">
-            5.0{" "}
+            {props.rating}{" "}
             <span>
               <MdOutlineStar />
             </span>
           </div>
         </div>
-        <div className="price">$100/day</div>
+        <div className="price">${props.price}/day</div>
         <div className="details">
           <button>View details</button>
         </div>

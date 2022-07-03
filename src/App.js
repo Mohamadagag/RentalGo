@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route index path="/home" element={<Home />} />
-        <Route index path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/details" element={<Details />} />
         <Route path="/howitworks" element={<HowItWorks />} />
         <Route path="/login" element={<Login />} />
